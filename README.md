@@ -4,6 +4,24 @@ Code, numerical results, and figures accompanying
 [A proximal gradient algorithm for composite log-concave sampling](https://arxiv.org/abs/2605.12461)
 by Linghai Liu and Sinho Chewi.
 
+## Citation
+
+The paper is currently in submission. Our work can be cited as:
+
+> Linghai Liu and Sinho Chewi. *A proximal gradient algorithm for composite
+> log-concave sampling*. arXiv:2605.12461, 2026.
+
+```bibtex
+@misc{liu2026proximalgradient,
+  title         = {A proximal gradient algorithm for composite log-concave sampling},
+  author        = {Linghai Liu and Sinho Chewi},
+  year          = {2026},
+  eprint        = {2605.12461},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2605.12461}
+}
+```
+
 ## Repository structure
 
 ```text
@@ -85,21 +103,3 @@ one dimension, method, seed, and evaluation count.
 `cost_to_threshold`, and `final_w2`. Each row summarizes one run.
 A missing `cost_to_threshold` means that the method did not reach the
 threshold within that run's computational budget.
-
-## Citation
-
-The paper is currently in submission. Our work can be cited as:
-
-> Linghai Liu and Sinho Chewi. *A proximal gradient algorithm for composite
-> log-concave sampling*. arXiv:2605.12461, 2026.
-
-```bibtex
-@misc{liu2026proximalgradient,
-  title         = {A proximal gradient algorithm for composite log-concave sampling},
-  author        = {Linghai Liu and Sinho Chewi},
-  year          = {2026},
-  eprint        = {2605.12461},
-  archivePrefix = {arXiv},
-  url           = {https://arxiv.org/abs/2605.12461}
-}
-```
